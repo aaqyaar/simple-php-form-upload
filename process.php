@@ -69,7 +69,6 @@ function validate_input($data, $fieldName) {
     if (empty($data)) {
         return "$fieldName is required";
     }
-    // You can add more specific validation as needed
     return $data;
 }
 ?>
